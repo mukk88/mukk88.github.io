@@ -1,13 +1,16 @@
 
 <template>
-  <main>
-    <div>hello world2</div>
+  <div>
+    <br>
+    <h2>Charcoal</h2>
+    <br>
     <img id="charcoal" src="/charcoal.jpg">
-  </main>
+  </div>
 </template>
 
 <style>
 #charcoal {
   width: 100%;
+  max-width: 500px;
 }
 </style>
