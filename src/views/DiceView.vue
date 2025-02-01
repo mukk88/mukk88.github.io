@@ -191,7 +191,7 @@ window.addEventListener("devicemotion", function (event: any) {
       <v-btn @click="addDie()">Add Die</v-btn>
     </v-col>
     <v-col cols="auto">
-      <v-btn @click="startShake()">Lose Die</v-btn>
+      <v-btn @click="loseDie()">Lose Die</v-btn>
     </v-col>
   </v-row>
   <div v-for="die in dice">
