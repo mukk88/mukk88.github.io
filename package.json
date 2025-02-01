@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
-    "build-only": "vite build && shx cp docs/index.html docs/404.html",
+    "build-only": "vite build && shx cp docs/index.html docs/404.html && echo 'markwoo.com' > docs/CNAME",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
