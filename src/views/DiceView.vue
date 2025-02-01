@@ -174,7 +174,7 @@ window.addEventListener("devicemotion", function (event: any) {
   const x = event.accelerationIncludingGravity.x;
   const y = event.accelerationIncludingGravity.y;
   const z = event.accelerationIncludingGravity.z;
-  const threshold = 12;
+  const threshold = 20;
   if ((x > threshold || y > threshold || z > threshold) && !shaking) {
     startShake();
   }
