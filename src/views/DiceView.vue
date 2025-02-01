@@ -266,8 +266,8 @@ window.addEventListener("devicemotion", function (event: any) {
 }
 
 #area4 {
-  top: 100px;
-  left: 600px;
+  top: 700px;
+  left: 0px;
 }
 
 #cube4 {
@@ -277,8 +277,8 @@ window.addEventListener("devicemotion", function (event: any) {
 }
 
 #area5 {
-  top: 400px;
-  left: 600px;
+  top: 700px;
+  left: 300px;
 }
 
 #cube5 {
