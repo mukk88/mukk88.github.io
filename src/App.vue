@@ -13,6 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
       <v-list density="compact" nav>
         <v-list-item href="/dice" prepend-icon="mdi-dice-3" title="Dice" value="dice"></v-list-item>
+        <v-list-item href="/food" prepend-icon="mdi-food" title="Food" value="food"></v-list-item>
       </v-list>
     </v-navigation-drawer>
     <router-view />
